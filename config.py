@@ -15,7 +15,7 @@ weather_path = os.getenv("WEATHER_PATH")
 
 # Connexion à la base de données SQLite
 try:
-    conn = sqlite3.connect('trafic5.db')
+    conn = sqlite3.connect('trafic4.db')
     print("Connexion à la base de données réussie.")
 except Exception as e:
     print(f"Erreur de connexion à la base de données : {e}")
